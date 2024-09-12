@@ -1,4 +1,4 @@
-import './App.css';
+import '../App.css';
 import Sidebar from './Sidebar';
 import Navbar from './Navbar';
 import ChatWelcome from './ChatWelcome';
@@ -10,19 +10,19 @@ function App() {
     <div id="chatbot">
       <Sidebar />
 
-      <main>
-        <header>
+      <main id="chat-interface">
+        <header id="site-header">
           <Navbar />
         </header>
 
         <section id="chat-content">
           <ChatWelcome />
-          <ChatMessages />
+          {/* <ChatMessages /> */}
           <ChatInput />
         </section>
 
-        <footer>
-          <p>ChatGPT can make mistakes. Check important info.</p>
+        <footer id="site-footer">
+          <p class="footer-text">ChatGPT can make mistakes. Check important info.</p>
         </footer>
 
       </main>
