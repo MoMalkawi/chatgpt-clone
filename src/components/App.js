@@ -16,8 +16,8 @@ function App() {
         </header>
 
         <section id="chat-content">
-          <ChatWelcome />
-          {/* <ChatMessages /> */}
+          {/* <ChatWelcome /> */}
+          <ChatMessages />
           <ChatInput />
         </section>
 
